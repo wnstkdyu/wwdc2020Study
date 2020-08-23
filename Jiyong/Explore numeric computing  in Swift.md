@@ -56,7 +56,7 @@
 
   ### Numeric Protocols in the Swift standard library
 
-  <img src="/Users/user/wwdc2020Study/Jiyong/images/numerics_swift_standard.png" alt="numerics_swift_standard" style="zoom:50%;" />
+  <img src="./images/numerics_swift_standard.png" alt="numerics_swift_standard" style="zoom:50%;" />
 
   This topic focuses on [`AdditiveArithmetic`](https://developer.apple.com/documentation/swift/additivearithmetic), [`SignedNumeric`](https://developer.apple.com/documentation/swift/signednumeric), and [`FloatingPoint`](https://developer.apple.com/documentation/swift/floatingpoint)
 
@@ -74,7 +74,9 @@
 
   기존 구현타입을 보강하여 하나의 Real 프로토콜로 조합함.
 
-<img src="/Users/user/wwdc2020Study/Jiyong/images/real.png" alt="real" style="zoom:50%;" />
+  
+
+  <img src="./images/real.png" alt="real" style="zoom:50%;" />
 
  ### Implications of the Real protocol
 
@@ -162,7 +164,7 @@ Numerics 패키지는 복잡한 무한대 및 NaN을 C 또는 C ++ 방식과 다
 그러나 이러한 값에 대한 Swift의 처리는 곱셈과 나눗셈에 대해 더 간단하고 훨씬 더 성능이 좋습니다.
  아래는 Swift와 C를 비교 한 벤치 마크입니다.
 
-<img src="/Users/user/wwdc2020Study/Jiyong/images/complex_benchmark.png" alt="complex_benchmark" style="zoom:50%;" />
+<img src="./images/complex_benchmark.png" alt="image" style="zoom:50%;" />
 
 ### Float16
 
@@ -192,4 +194,5 @@ a normal floating-point type
 - Supported (and preferred) by Apple's GPUs.
 - Supported by Apple's CPUs starting with A11 Bionic.
 
- <img src="/Users/user/wwdc2020Study/Jiyong/images/float16_benchmark.png" alt="float16_benchmark" style="zoom:50%;" />
+<img src="./images/float16_benchmark.png" alt="image" style="zoom:50%;" />
+
