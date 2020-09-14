@@ -3,11 +3,11 @@
 개인 정보를 보호하면서 앱에 필요한 사진과 동영상에 액세스 한다. 
 새로운 Limited Photos Library 기능을 통해 사람들은 개인 콘텐츠를 보호하기 위해 앱이 액세스 할 수있는 사진과 비디오를 직접 제어 할 수 있습니다.
 
-![image-20200913232710645](/Users/user/Library/Application Support/typora-user-images/image-20200913232710645.png)
+![image-20200913232710645](./images/full_photo_lib.png)
 
 - 기존 Photo Kit API는 사용자 권한을 허용 한다면, 모든 사진 라이브러리에 대해서 접근이 가능하다.
 
-![image-20200913233226277](/Users/user/Library/Application Support/typora-user-images/image-20200913233226277.png)
+![image-20200913233226277](./images/limited_photo_lib.png)
 
 - Limited Photo Library 는 사용자가 선택한 사진에만 접근이 가능하다.
 - 새 API를 채택하지 않은 앱의 경우, 사용자에게 전체 액세스 권한을 부여하거나 제한된 수의 사진 만 선택하여 액세스 권한을 부여하라는 메시지가 표시됩니다.
@@ -35,15 +35,15 @@
   - `.readWrite`
 - 권한 체크
 
-![image-20200914002721992](/Users/user/Library/Application Support/typora-user-images/image-20200914002721992.png)
+![image-20200914002721992](./images/request_authorization.png)
 
 - 수동으로 액세스를 요청하면 현재 상태가 미확인 인 경우에만 사용자에게 메시지가 표시됩니다
 
-![image-20200914002904781](/Users/user/Library/Application Support/typora-user-images/image-20200914002904781.png)
+![image-20200914002904781](./images/authorization_status_check.png)
 
 - 기존에 사용하던 버전 **Deprecated**
 
-![image-20200914003049932](/Users/user/Library/Application Support/typora-user-images/image-20200914003049932.png)
+![image-20200914003049932](./images/deprecated.png)
 
 > 기존 API는 새로운 타입 `.limited` 을 인식하지 못하며, `.authorizied`를 반환하게 됨
 
@@ -61,7 +61,7 @@
 
 - 기본적으로 선택 UI를 표시하는 방법을 다루고 두 번째로 시작 후 photokit apis 호출을 수행 할 때 앱에 대해 자동 시스템 프롬프트가 발생하지 않도록하는 방법에 대해 설명하겠습니다.
 
-![image-20200914004539834](/Users/user/Library/Application Support/typora-user-images/image-20200914004539834.png)
+![image-20200914004539834](./images/present_limit_lib_picker.png)
 
 -  `PHPhotoLibraryChangeObserver` 를 통해 접근 변경을 감지할 수 있음.
 
