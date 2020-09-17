@@ -1,6 +1,6 @@
 # Safely manage pointers in Swift
 
-WWDC 2020의 [Unsafe Swift](https://developer.apple.com/videos/play/wwdc2020/10648/) 에서 이어지는 내용으로 Unsafe한 오퍼레이션을 어떻게 다뤄야 할 지에 대해 다룬다. 대부분의 시간을 **Pointer Type Safety** 에 관해 다루는데 이는 
+WWDC 2020의 [Unsafe Swift](https://developer.apple.com/videos/play/wwdc2020/10648/) 에서 이어지는 내용으로 Unsafe한 오퍼레이션을 어떻게 다뤄야 할 지에 대해 다룬다.
 
 ## Pointer Type Safety
 
