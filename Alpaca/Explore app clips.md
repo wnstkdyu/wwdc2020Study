@@ -1,4 +1,4 @@
-#Explore app clip
+# Explore app clip
 
 앱 클립은 iOS 14부터 제공되는 기능으로 사용자가 앱을 경험하는 새로운 방법이다.
 
